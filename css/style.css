@@ -1,0 +1,15 @@
+.blue { color: 'blue'; }
+
+.red { color: 'red'; }
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+#box { background: red; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; border-radius: 10px; height: 120px; width: 120px; }
+
+h1 { color: red; }
+
+a { color: #ec7705; }
+
+.navigation1 ul li, .navigation2 ul li { color: blue; padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */

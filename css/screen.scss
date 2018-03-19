@@ -1,0 +1,32 @@
+$linkColor :  #ec7705;
+$listColor :  blue;
+$h1Color : red;
+
+@import 'color';
+@import 'mixins';
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#box {
+    background: red;
+    @include border-radius(10px);
+    height: 120px;
+    width: 120px;
+}
+
+h1 {
+    color : $h1Color;
+}
+
+a {
+    color: $linkColor;
+}
+.navigation1,.navigation2 {
+    ul li {
+        color: $listColor;
+        padding: 10px;
+    }
+}
+
